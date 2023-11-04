@@ -1,0 +1,52 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify user can see the help page",
+        "description": "",
+        "id": ";verify-user-can-see-the-help-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4452698700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open docs oracle application",
+            "match": {
+              "location": "StepClass.open_docs_oracle_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5478398000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on help",
+            "match": {
+              "location": "StepClass.click_on_help()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "help.feature"
+  }
+]
